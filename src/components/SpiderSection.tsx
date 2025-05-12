@@ -1,5 +1,5 @@
 
-import { Spider, SpiderWeb } from "lucide-react";
+import { Bug, Web } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const SpiderSection = () => {
@@ -19,8 +19,8 @@ const SpiderSection = () => {
         <div className="absolute bottom-0 right-0 w-32 h-32 border-b-2 border-r-2 border-white/20 rounded-br-xl"></div>
         
         {/* Additional web elements */}
-        <SpiderWeb className="absolute top-10 right-10 w-12 h-12 text-white/20" />
-        <SpiderWeb className="absolute bottom-10 left-10 w-12 h-12 text-white/20" />
+        <Web className="absolute top-10 right-10 w-12 h-12 text-white/20" />
+        <Web className="absolute bottom-10 left-10 w-12 h-12 text-white/20" />
       </div>
       
       <div className="max-w-7xl mx-auto relative z-10">
@@ -41,7 +41,7 @@ const SpiderSection = () => {
           
           <div className="space-y-8 order-1 md:order-2">
             <div className="flex items-center gap-3 mb-2">
-              <Spider className="w-7 h-7 text-primary" />
+              <Bug className="w-7 h-7 text-primary" />
               <h2 className="text-3xl md:text-4xl font-bold text-white"><span className="text-primary">Weave</span> Your Innovation</h2>
             </div>
             <p className="text-lg text-white/80">
@@ -52,7 +52,7 @@ const SpiderSection = () => {
             </p>
             <Button className="px-6 py-2 bg-primary text-white hover:bg-primary/80">
               Unleash Your Spider-Sense
-              <Spider className="w-4 h-4 ml-2" />
+              <Bug className="w-4 h-4 ml-2" />
             </Button>
           </div>
         </div>
