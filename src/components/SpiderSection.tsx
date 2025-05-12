@@ -1,5 +1,5 @@
 
-import { Bug, Web } from "lucide-react";
+import { Bug, Network } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const SpiderSection = () => {
@@ -19,8 +19,8 @@ const SpiderSection = () => {
         <div className="absolute bottom-0 right-0 w-32 h-32 border-b-2 border-r-2 border-white/20 rounded-br-xl"></div>
         
         {/* Additional web elements */}
-        <Web className="absolute top-10 right-10 w-12 h-12 text-white/20" />
-        <Web className="absolute bottom-10 left-10 w-12 h-12 text-white/20" />
+        <Network className="absolute top-10 right-10 w-12 h-12 text-white/20" />
+        <Network className="absolute bottom-10 left-10 w-12 h-12 text-white/20" />
       </div>
       
       <div className="max-w-7xl mx-auto relative z-10">
