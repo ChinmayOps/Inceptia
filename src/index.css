@@ -103,13 +103,102 @@
 
 @keyframes pulse-border {
   0%, 100% {
-    border-color: rgba(226, 54, 54, 0.3);
+    border-color: rgba(240, 230, 168, 0.3);
   }
   50% {
-    border-color: rgba(226, 54, 54, 0.8);
+    border-color: rgba(240, 230, 168, 0.8);
   }
 }
 
 .pulse-border {
   animation: pulse-border 2s infinite;
+}
+
+/* Captain America vs Iron Man styles */
+.civil-war-gradient {
+  background: linear-gradient(to right, rgba(81, 140, 202, 0.2), rgba(226, 54, 54, 0.2));
+}
+
+/* Iron Man Arc Reactor Glow */
+@keyframes arc-reactor-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px 2px rgba(240, 230, 168, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px 5px rgba(240, 230, 168, 0.9);
+  }
+}
+
+.arc-reactor-glow {
+  animation: arc-reactor-glow 2s infinite;
+}
+
+/* Black Widow's Precise Movement */
+@keyframes widow-move {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.widow-move {
+  animation: widow-move 4s ease-in-out infinite;
+}
+
+/* Mjolnir Lightning Strike */
+@keyframes mjolnir-strike {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.8;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.mjolnir-strike {
+  animation: mjolnir-strike 3s infinite;
+}
+
+/* Spider Web Spread */
+.web-corner {
+  position: relative;
+  overflow: hidden;
+}
+
+.web-corner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle at 0 0, transparent 70%, rgba(255, 255, 255, 0.1) 71%, rgba(255, 255, 255, 0.1) 73%, transparent 74%),
+    radial-gradient(circle at 100% 0, transparent 70%, rgba(255, 255, 255, 0.1) 71%, rgba(255, 255, 255, 0.1) 73%, transparent 74%),
+    radial-gradient(circle at 0 100%, transparent 70%, rgba(255, 255, 255, 0.1) 71%, rgba(255, 255, 255, 0.1) 73%, transparent 74%),
+    radial-gradient(circle at 100% 100%, transparent 70%, rgba(255, 255, 255, 0.1) 71%, rgba(255, 255, 255, 0.1) 73%, transparent 74%);
+  background-size: 50px 50px;
+  background-position: 0 0, 100% 0, 0 100%, 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.2;
 }
