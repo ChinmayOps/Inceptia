@@ -7,10 +7,6 @@ import Theme from "@/components/Theme";
 import Domains from "@/components/Domains";
 import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
-import SpiderSection from "@/components/SpiderSection";
-import ThorSection from "@/components/ThorSection";
-import BlackWidowSection from "@/components/BlackWidowSection";
-import IronManSection from "@/components/IronManSection";
 
 const Index = () => {
   return (
