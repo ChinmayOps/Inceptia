@@ -39,13 +39,6 @@ const Hero = () => {
               Assemble Your Team
               <Target className="w-5 h-5 ml-2" />
             </Button>
-            <Button 
-              variant="outline" 
-              className="px-8 py-6 text-lg border-accent text-accent hover:bg-accent/10"
-            >
-              Mission Details
-              <Zap className="w-5 h-5 ml-2" />
-            </Button>
           </div>
           <div className="grid grid-cols-3 gap-8 pt-8">
             <div>
