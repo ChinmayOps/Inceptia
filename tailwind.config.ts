@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -22,27 +23,27 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#0F1115",
+        background: "#0A0F18", // Dark blue like the night sky in Avengers
         foreground: "#FFFFFF",
         primary: {
-          DEFAULT: "#141413",
+          DEFAULT: "#E23636", // Marvel red
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#E6E4DD",
-          foreground: "#141413",
-        },
-        accent: {
-          DEFAULT: "#8989DE",
+          DEFAULT: "#518CCA", // Captain America blue
           foreground: "#FFFFFF",
         },
+        accent: {
+          DEFAULT: "#F0E6A8", // Iron Man gold
+          foreground: "#0A0F18",
+        },
         muted: {
-          DEFAULT: "#828179",
-          foreground: "#FAFAF8",
+          DEFAULT: "#6D7684", // Muted color
+          foreground: "#FFFFFF",
         },
         card: {
-          DEFAULT: "#FFFFFF",
-          foreground: "#141413",
+          DEFAULT: "#121A29", // Darker blue for cards
+          foreground: "#FFFFFF",
         },
       },
       borderRadius: {
@@ -63,11 +64,21 @@ export default {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-10px)" },
         },
+        pulse: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.7" },
+        },
+        glow: {
+          "0%, 100%": { boxShadow: "0 0 5px rgba(240, 230, 168, 0.5)" },
+          "50%": { boxShadow: "0 0 20px rgba(240, 230, 168, 0.8)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         float: "float 6s ease-in-out infinite",
+        pulse: "pulse 2s infinite",
+        glow: "glow 2s infinite",
       },
     },
   },

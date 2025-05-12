@@ -1,55 +1,73 @@
 
 import { Button } from "@/components/ui/button";
+import { Shield, Zap, Target } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 pt-20 bg-background">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div className="min-h-screen flex items-center justify-center px-4 pt-20 bg-background relative overflow-hidden">
+      {/* Background elements */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-primary/40 filter blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/3 right-1/3 w-96 h-96 rounded-full bg-secondary/30 filter blur-3xl animate-pulse delay-1000"></div>
+      </div>
+      
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
         <div className="space-y-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-            Hackathon <span className="text-[#F2FF44]">2025</span>
-          </h1>
+          <div className="flex items-center gap-3">
+            <Shield className="w-8 h-8 text-primary animate-pulse" />
+            <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
+              AVENGERS <span className="text-primary">HACKATHON</span> 2025
+            </h1>
+          </div>
           <p className="text-lg text-white/80 max-w-xl">
-            Join the most exciting hackathon of the year! Collaborate, innovate, and compete for amazing prizes.
+            Join Earth's Mightiest Developers! Collaborate, innovate, and compete in a coding challenge worthy of heroes. 
+            <span className="text-primary font-bold"> Whatever it takes.</span>
           </p>
           <div className="flex flex-wrap gap-4">
             <Button 
-              className="px-8 py-6 text-lg bg-white text-black hover:bg-white/90"
+              className="px-8 py-6 text-lg bg-primary text-white hover:bg-primary/90"
               onClick={() => window.open("https://unstop.com", "_blank")}
             >
-              Register on Unstop
+              Assemble Your Team
+              <Target className="w-5 h-5 ml-2" />
             </Button>
             <Button 
               variant="outline" 
-              className="px-8 py-6 text-lg border-white/20 text-white hover:bg-white/10"
+              className="px-8 py-6 text-lg border-accent text-accent hover:bg-accent/10"
             >
-              Learn More
+              Mission Details
+              <Zap className="w-5 h-5 ml-2" />
             </Button>
           </div>
           <div className="grid grid-cols-3 gap-8 pt-8">
             <div>
-              <div className="text-3xl font-bold text-white">48hrs</div>
+              <div className="text-3xl font-bold text-white">48<span className="text-primary">hrs</span></div>
               <div className="text-white/60">Hackathon</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-white">$10k+</div>
+              <div className="text-3xl font-bold text-white">$10<span className="text-primary">k+</span></div>
               <div className="text-white/60">Prize Pool</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-white">1000+</div>
+              <div className="text-3xl font-bold text-white">1000<span className="text-primary">+</span></div>
               <div className="text-white/60">Participants</div>
             </div>
           </div>
         </div>
         <div className="relative">
-          <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
+          <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-2 border-primary/50">
             <img 
               src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
-              alt="Hackathon Event"
-              className="w-full h-auto"
+              alt="Avengers Hackathon"
+              className="w-full h-auto brightness-90"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-80"></div>
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
+              <Shield className="w-10 h-10 text-primary mx-auto mb-2" />
+              <p className="text-white font-bold text-lg">AVENGERS INITIATIVE</p>
+            </div>
           </div>
-          <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-accent/20 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
         </div>
       </div>
     </div>
