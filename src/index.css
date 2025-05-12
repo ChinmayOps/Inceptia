@@ -42,6 +42,65 @@
   @apply bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-all;
 }
 
+/* Captain America Shield Animation */
+@keyframes shield-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(226, 54, 54, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(81, 140, 202, 0.0);
+  }
+}
+
+.shield-pulse {
+  animation: shield-pulse 2s infinite;
+}
+
+/* Thor's Hammer Lightning Effect */
+@keyframes lightning-flash {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.lightning-flash {
+  animation: lightning-flash 1.5s infinite;
+}
+
+/* Spider-Man Web Animation */
+@keyframes web-expand {
+  0% {
+    clip-path: circle(0% at 50% 50%);
+  }
+  100% {
+    clip-path: circle(100% at 50% 50%);
+  }
+}
+
+.web-expand {
+  animation: web-expand 0.5s ease-out forwards;
+}
+
+/* Hulk Smash Animation */
+@keyframes hulk-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hulk-pulse {
+  animation: hulk-pulse 2s infinite;
+}
+
 @keyframes pulse-border {
   0%, 100% {
     border-color: rgba(226, 54, 54, 0.3);

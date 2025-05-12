@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Shield className="w-6 h-6 text-primary mr-2" />
           <div className="text-2xl font-bold text-white">
-            <span className="text-primary">AVENGERS</span> HACKATHON 2025
+            <span className="text-primary">INCEPTIA</span> HACKATHON 2025
           </div>
         </div>
         <div className="hidden md:flex items-center space-x-8">
