@@ -22,10 +22,10 @@ const Index = () => {
       </div>
       <Navbar />
       <Hero />
-      <Sponsors />
       <About />
-      <PrizePool />
       <Domains />
+      <PrizePool />
+      <Sponsors />
       <Footer />
     </div>
   );
