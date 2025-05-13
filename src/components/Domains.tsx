@@ -39,13 +39,6 @@ const domains = [
     icon: "🎮",
   },
   {
-    name: "IoT & Hardware",
-    description: "Create innovative hardware solutions or IoT devices that solve real problems.",
-    requirements: "Functional prototype with clear practical applications.",
-    tools: "Raspberry Pi, Arduino, ESP32, Sensors",
-    icon: "🔌",
-  },
-  {
     name: "Open Innovation",
     description: "Any other innovative idea that doesn't fit into the above categories.",
     requirements: "Clear problem statement, technical implementation, and solution validation.",
@@ -101,7 +94,7 @@ const Domains = () => {
             className="px-8 py-6 text-lg bg-primary text-white hover:bg-primary/80"
             onClick={() => window.open("https://unstop.com", "_blank")}
           >
-            Assemble Your Team on Unstop
+            Assemble Your Team
             <Target className="w-5 h-5 ml-2" />
           </Button>
         </div>
