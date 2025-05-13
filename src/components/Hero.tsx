@@ -46,11 +46,11 @@ const Hero = () => {
               <div className="text-white/60">Hackathon</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-white">$10<span className="text-primary">k+</span></div>
+              <div className="text-3xl font-bold text-white">₹50<span className="text-primary">k</span></div>
               <div className="text-white/60">Prize Pool</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-white">1000<span className="text-primary">+</span></div>
+              <div className="text-3xl font-bold text-white">100<span className="text-primary">+</span></div>
               <div className="text-white/60">Participants</div>
             </div>
           </div>
@@ -65,7 +65,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-80"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
               <Shield className="w-10 h-10 text-primary mx-auto mb-2" />
-              <p className="text-white font-bold text-lg">INCEPTIA INITIATIVE</p>
+              <p className="text-white font-bold text-lg">ITSA INITIATIVE</p>
             </div>
           </div>
           <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
