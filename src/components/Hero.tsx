@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Shield, Zap, Target } from "lucide-react";
+import Countdown from "./Countdown";
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
+      <Countdown />
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
         <div className="space-y-8">
           <div className="flex items-center gap-3">
@@ -64,7 +65,6 @@ const Hero = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-80"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
-              <Shield className="w-10 h-10 text-primary mx-auto mb-2" />
               <p className="text-white font-bold text-lg">ITSA INITIATIVE</p>
             </div>
           </div>
