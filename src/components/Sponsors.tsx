@@ -20,7 +20,7 @@ const Sponsors = () => {
               <div className="aspect-[3/2] w-full rounded-lg flex items-center justify-center">
                 <AspectRatio ratio={3/2} className="w-full">
                   <img 
-                    src="Unstop-Logo-Blue.svg" 
+                    src="src/components/Unstop-Logo-Blue.svg" 
                     alt="Unstop Logo" 
                     className="object-contain w-full h-full"
                   />
