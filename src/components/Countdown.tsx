@@ -95,7 +95,7 @@ const Schedule = () => {
                   <Clock className="w-5 h-5 text-primary" />
                   Hackathon Countdown
                 </h3>
-                <div className="flex justify-center my-8">
+                <div className="flex my-8">
                   <div className="grid grid-cols-4 gap-4 text-center">
                     <div className="bg-card/60 backdrop-blur-md rounded-lg p-4 w-24">
                       <div className="text-3xl font-bold text-white">{time.days}</div>
