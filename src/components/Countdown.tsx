@@ -98,6 +98,10 @@ const Schedule = () => {
                 <div className="flex justify-center my-8">
                   <div className="grid grid-cols-3 gap-4 text-center">
                     <div className="bg-card/60 backdrop-blur-md rounded-lg p-4 w-24">
+                      <div className="text-3xl font-bold text-white">{time.days}</div>
+                      <div className="text-xs text-white/60 uppercase">Days</div>
+                    </div>
+                    <div className="bg-card/60 backdrop-blur-md rounded-lg p-4 w-24">
                       <div className="text-3xl font-bold text-white">{time.hours}</div>
                       <div className="text-xs text-white/60 uppercase">Hours</div>
                     </div>
