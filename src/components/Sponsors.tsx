@@ -1,4 +1,4 @@
-
+//
 import { Card } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
@@ -15,7 +15,7 @@ const Sponsors = () => {
         
         <div className="mb-16">
           <h3 className="text-xl font-semibold text-white/80 mb-8 text-center">Sponsors</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
             <Card key="unstop" className="bg-white/5 backdrop-blur-sm border-white/10 p-10 flex items-center justify-center hover:bg-white/10 transition-colors">
               <div className="aspect-[3/2] w-full rounded-lg flex items-center justify-center">
                 <AspectRatio ratio={3/2} className="w-full">
