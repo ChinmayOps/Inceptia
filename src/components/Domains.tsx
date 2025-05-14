@@ -39,7 +39,6 @@ const domains = [
     name: "Open Innovation",
     description: "Any other innovative idea that doesn't fit into the above categories.",
     requirements: "Clear problem statement, technical implementation, and solution validation.",
-    tools: "Any technology stack or combination of technologies",
     icon: "💡",
   },
 ];
@@ -75,10 +74,6 @@ const Domains = () => {
                   <div>
                     <h4 className="text-sm font-medium text-white mb-1">Requirements:</h4>
                     <p className="text-white/60 text-sm">{domain.requirements}</p>
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-medium text-white mb-1">Recommended Tools:</h4>
-                    <p className="text-white/60 text-sm">{domain.tools}</p>
                   </div>
                 </div>
               </CardContent>

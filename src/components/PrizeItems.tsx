@@ -31,7 +31,7 @@ const PrizeItems = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {prizes.map((prize, index) => (
             <Card key={index} className="bg-white/5 backdrop-blur-sm border-white/10 p-6 hover:bg-primary/10 transition-colors">
               <CardContent className="pt-6 flex flex-col items-center text-center">

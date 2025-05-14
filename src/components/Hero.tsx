@@ -52,7 +52,7 @@ const Hero = () => {
               <div className="text-white/60">Prize Pool</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-white">100<span className="text-primary">+</span></div>
+              <div className="text-3xl font-bold text-white">400<span className="text-primary">+</span></div>
               <div className="text-white/60">Participants</div>
             </div>
           </div>

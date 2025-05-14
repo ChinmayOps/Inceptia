@@ -20,20 +20,20 @@ const Sponsors = () => {
               <div className="aspect-[3/2] w-full rounded-lg flex items-center justify-center">
                 <AspectRatio ratio={3/2} className="w-full">
                   <img 
-                    src="/lovable-uploads/51083e1e-2a0d-4aec-8e4a-50feb8f2dfca.png" 
+                    src="C:\Users\CHINMAY KAKADE\Desktop\c-577460-45\Unstop-Logo-Blue-Medium.jpg" 
                     alt="Unstop Logo" 
                     className="object-contain w-full h-full"
                   />
                 </AspectRatio>
               </div>
             </Card>
-            {[1, 2, 3].map((i) => (
+            {/*[1, 2].map((i) => (
               <Card key={i} className="bg-white/5 backdrop-blur-sm border-white/10 p-10 flex items-center justify-center hover:bg-white/10 transition-colors">
                 <div className="aspect-[3/2] w-full bg-white/20 rounded-lg flex items-center justify-center">
                   <p className="text-white/50 text-lg">Sponsor Logo</p>
                 </div>
               </Card>
-            ))}
+            ))*/}
           </div>
         </div>
       </div>

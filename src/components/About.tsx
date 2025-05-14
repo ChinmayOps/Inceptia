@@ -24,9 +24,9 @@ const About = () => {
             <CardContent className="pt-6">
               <h3 className="text-xl font-bold text-white mb-4">When & Where</h3>
               <p className="text-white/70">
-                June 15-16, 2025<br />
-                University Main Campus<br />
-                Both Online & In-person
+                June 28-29, 2025<br />
+                Pimpri Chinchwad College of Engineering and Research, Ravet<br />
+                Pune
               </p>
             </CardContent>
           </Card>
@@ -45,7 +45,6 @@ const About = () => {
               <h3 className="text-xl font-bold text-white mb-4">Team Size</h3>
               <p className="text-white/70">
                 Form teams of 2-4 members.<br />
-                Don't have a team? Join our team formation event!
               </p>
             </CardContent>
           </Card>
@@ -56,7 +55,7 @@ const About = () => {
             <CardContent className="pt-6">
               <h3 className="text-2xl font-bold text-white mb-4">What to Expect</h3>
               <p className="text-white/70 mb-6">
-                Our 24-hour hackathon offers a unique opportunity to collaborate with like-minded individuals, learn from industry experts, and showcase your skills. Throughout the event, you'll have access to mentors, workshops, and networking opportunities to help you succeed.
+                Our 24-hour hackathon offers a unique opportunity to collaborate with like-minded individuals,showcase your skills. Throughout the event, you'll have access to mentors, workshops, and networking opportunities to help you succeed.
               </p>
               <p className="text-white/70">
                 With great power comes great responsibility. Whether you're a seasoned developer, a creative designer, or just starting your tech journey, this hackathon is designed to challenge and inspire you to create solutions that matter.
