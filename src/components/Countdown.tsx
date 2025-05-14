@@ -30,7 +30,7 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="bg-black/50 border border-white/10 backdrop-blur-md rounded-2xl shadow-lg p-6 w-full max-w-xl mx-auto">
+    <div className="backdrop-blur-md rounded-2xl shadow-lg p-6 w-full max-w-xl mx-auto">
       <h2 className="text-2xl md:text-3xl font-bold text-center text-white mb-4">
         Countdown to <span className="text-primary">Inceptia 2025</span>
       </h2>
