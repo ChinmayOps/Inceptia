@@ -1,7 +1,6 @@
 
 import { Button } from "@/components/ui/button";
 import { Shield, Zap, Target } from "lucide-react";
-import Countdown from "./Countdown";
 
 const Hero = () => {
   return (
@@ -39,7 +38,6 @@ const Hero = () => {
               Assemble Your Team
               <Target className="w-5 h-5 ml-2" />
             </Button>
-            <Countdown />
           </div>
           <div className="grid grid-cols-3 gap-8 pt-8">
             <div>

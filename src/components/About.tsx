@@ -1,5 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import Countdown from "./Countdown";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
       
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
+          <Countdown />
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">About the Hackathon</h2>
           <p className="text-white/60 max-w-2xl mx-auto">
             A 24-hour coding competition where creativity meets technology to solve real-world challenges.
