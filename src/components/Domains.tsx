@@ -10,33 +10,30 @@ import { Button } from "@/components/ui/button";
 import { Target } from "lucide-react";
 
 const domains = [
-  {
+  { 
+    
     name: "Artificial Intelligence & Machine Learning",
     description: "Develop solutions using AI/ML technologies to solve real-world problems.",
     requirements: "Models must be explainable and demonstrate clear practical applications.",
-    tools: "TensorFlow, PyTorch, Scikit-learn, Keras",
-    icon: "🧠",
+    icon: "🤖",
   },
   {
-    name: "Web & Mobile Development",
-    description: "Create innovative web or mobile applications with excellent user experience.",
-    requirements: "Applications should be responsive, accessible, and demonstrate good UX principles.",
-    tools: "React, Flutter, Next.js, React Native, Vue",
-    icon: "📱",
-  },
-  {
-    name: "Blockchain & FinTech",
-    description: "Build financial solutions or decentralized applications using blockchain technology.",
-    requirements: "Security-focused implementations with clear use case and value proposition.",
-    tools: "Ethereum, Solidity, Web3.js, Truffle",
+    name: "Web3",
+    description: "Design decentralized applications and protocols using blockchain to enable transparency and decentralization.",
+    requirements: "Projects should have clear use cases with well-defined value propositions. Emphasize secure architecture and real-world applicability in areas like finance, identity,or governance.",
     icon: "⛓️",
   },
   {
-    name: "AR/VR & Gaming",
-    description: "Develop immersive experiences that educate, entertain, or solve problems.",
-    requirements: "Solutions should be creative, engaging, and technically impressive.",
-    tools: "Unity, Unreal Engine, ARKit, ARCore",
-    icon: "🎮",
+    name: "Healthcare",
+    description: "Design innovative solutions to improve healthcare outcomes and patient care.",
+    requirements: "Solutions should address real-world healthcare challenges such as diagnosis, accessibility, mental health, or medical data management. Projects must demonstrate practical impact, usability, and compliance considerations",
+    icon: "🏥",
+  },
+  {
+    name: "Education",
+    description: "Reimagine learning experiences through technology that makes education more accessible, personalized, and effective.",
+    requirements: "Projects should aim to solve key educational challenges like remote learning, adaptive content, student engagement, or accessibility. Emphasis on creativity and impact is encouraged.",
+    icon: "🎓",
   },
   {
     name: "Open Innovation",

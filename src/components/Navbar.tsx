@@ -13,9 +13,10 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden md:flex items-center space-x-8">
+          <a href="#countdown" className="text-white/80 hover:text-white transition-colors">Timeline</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>
-          <a href="#prizes" className="text-white/80 hover:text-white transition-colors">Prizes</a>
           <a href="#domains" className="text-white/80 hover:text-white transition-colors">Domains</a>
+          <a href="#prizes" className="text-white/80 hover:text-white transition-colors">Prizes</a>
           <a href="#sponsors" className="text-white/80 hover:text-white transition-colors">Sponsors</a>
           <Button 
             className="bg-primary text-white hover:bg-primary/80"
