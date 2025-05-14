@@ -26,7 +26,7 @@ const PrizeItems = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Prize Pool Up to ₹50,000</h2>
           <p className="text-white/60 max-w-2xl mx-auto">
-            The prize pool includes exciting cash prizes, gadgets, goodies, and more! Don't miss your chance to
+            The prize pool includes exciting cash prizes, goodies, and more! Don't miss your chance to
             win big and get recognized.
           </p>
         </div>
