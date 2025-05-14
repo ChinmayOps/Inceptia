@@ -7,6 +7,8 @@ import PrizePool from "@/components/PrizePool";
 import Domains from "@/components/Domains";
 import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
+import HowItWorks from "@/components/HowItWorks";
+import PrizeItems from "@/components/PrizeItems";
 
 const Index = () => {
   return (
@@ -25,8 +27,10 @@ const Index = () => {
       <Hero />
       <Countdown />
       <About />
+      <HowItWorks />
       <Domains />
       <PrizePool />
+      <PrizeItems />
       <Sponsors />
       <Footer />
     </div>
