@@ -4,20 +4,20 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Schedule = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date('2025-06-28T00:00:00');
-    const now = new Date();
-    const difference = eventDate.getTime() - now.getTime();
+    const eventDate = new Date('2025-06-28T00:00:00').getTime();
+    const now = new Date().getTime();
+    const difference = eventDate - now;
 
     if (difference <= 0) {
-      return { hours: 0, minutes: 0, seconds: 0, completed: true };
+      return { hours: 0, minutes: 0, seconds: 0 };
     }
 
-    const totalSeconds = Math.floor(difference / 1000);
-    const hours = Math.floor(totalSeconds / 3600);
-    const minutes = Math.floor((totalSeconds % 3600) / 60);
-    const seconds = totalSeconds % 60;
-
-    return { hours, minutes, seconds, completed: false };
+  return{    
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / 1000 / 60) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
   };
 
   const [time, setTime] = useState(calculateTimeLeft());
@@ -30,7 +30,7 @@ const Schedule = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const formatTime = (value: number) => value.toString().padStart(2, '0');
+  //const formatTime = (value: number) => value.toString().padStart(2, '0');
 
   return (
     <section id="schedule" className="py-20 px-6 relative overflow-hidden bg-background">
@@ -79,7 +79,7 @@ const Schedule = () => {
                   </li>
                   <li className="relative pl-8">
                     <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary"></div>
-                    <div className="font-bold text-lg text-white">First week of July 2025</div>
+                    <div className="font-bold text-lg text-white">28<sup>th</sup> June 2025</div>
                     <div className="text-white/70">Offline Hackathon in college campus</div>
                   </li>
                 </ul>
@@ -98,25 +98,29 @@ const Schedule = () => {
                 <div className="flex justify-center my-8">
                   <div className="grid grid-cols-3 gap-4 text-center">
                     <div className="bg-card/80 backdrop-blur-md rounded-lg p-4 w-24">
-                      <div className="text-3xl font-bold text-white">{formatTime(time.hours)}</div>
+                      <div className="text-3xl font-bold text-white">{time.days}</div>
+                      <div className="text-xs text-white/60 uppercase">Days</div>
+                    </div>
+                    <div className="bg-card/80 backdrop-blur-md rounded-lg p-4 w-24">
+                      <div className="text-3xl font-bold text-white">{time.hours}</div>
                       <div className="text-xs text-white/60 uppercase">Hours</div>
                     </div>
                     <div className="bg-card/80 backdrop-blur-md rounded-lg p-4 w-24">
-                      <div className="text-3xl font-bold text-white">{formatTime(time.minutes)}</div>
+                      <div className="text-3xl font-bold text-white">{time.minutes}</div>
                       <div className="text-xs text-white/60 uppercase">Minutes</div>
                     </div>
                     <div className="bg-card/80 backdrop-blur-md rounded-lg p-4 w-24">
-                      <div className="text-3xl font-bold text-white">{formatTime(time.seconds)}</div>
+                      <div className="text-3xl font-bold text-white">{time.seconds}</div>
                       <div className="text-xs text-white/60 uppercase">Seconds</div>
                     </div>
                   </div>
                 </div>
-
+                { /*
                 {time.completed && (
                   <div className="text-center mt-4 p-3 bg-primary/20 rounded-md border border-primary/30">
                     <p className="text-white font-medium">Hackathon time is up! Time to submit your projects.</p>
                   </div>
-                )}
+                )} */}
               </CardContent>
             </Card>
           </div>
@@ -127,3 +131,58 @@ const Schedule = () => {
 };
 
 export default Schedule;
+
+/*
+const Countdown = () => {
+  const calculateTimeLeft = () => {
+    const eventDate = new Date("2025-06-28T00:00:00").getTime();
+    const now = new Date().getTime();
+    const difference = eventDate - now;
+
+    if (difference <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
+
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / 1000 / 60) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <div className="bg-black/50 border border-white/10 backdrop-blur-md rounded-2xl shadow-lg p-6 w-full max-w-xl mx-auto">
+      <h2 className="text-2xl md:text-3xl font-bold text-center text-white mb-4">
+        Countdown to <span className="text-primary">Inceptia 2025</span>
+      </h2>
+      <div className="grid grid-cols-4 gap-4 text-center">
+        <div>
+          <p className="text-4xl md:text-5xl font-extrabold text-white">{timeLeft.days}</p>
+          <p className="text-sm text-white/70">Days</p>
+        </div>
+        <div>
+          <p className="text-4xl md:text-5xl font-extrabold text-white">{timeLeft.hours}</p>
+          <p className="text-sm text-white/70">Hours</p>
+        </div>
+        <div>
+          <p className="text-4xl md:text-5xl font-extrabold text-white">{timeLeft.minutes}</p>
+          <p className="text-sm text-white/70">Minutes</p>
+        </div>
+        <div>
+          <p className="text-4xl md:text-5xl font-extrabold text-white">{timeLeft.seconds}</p>
+          <p className="text-sm text-white/70">Seconds</p>
+        </div>
+      </div>
+    </div>
+  );
+}; */
