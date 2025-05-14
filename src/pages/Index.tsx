@@ -1,6 +1,7 @@
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Countdown from "@/components/Countdown";
 import About from "@/components/About";
 import PrizePool from "@/components/PrizePool";
 import Domains from "@/components/Domains";
@@ -22,6 +23,7 @@ const Index = () => {
       </div>
       <Navbar />
       <Hero />
+      <Countdown/>
       <About />
       <Domains />
       <PrizePool />
