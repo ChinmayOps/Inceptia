@@ -4,11 +4,6 @@ import { ShoppingBag, Gift, Banknote, Medal } from "lucide-react";
 const PrizeItems = () => {
   const prizes = [
     {
-      icon: <ShoppingBag className="w-8 h-8 text-white" />,
-      title: "Exclusive T-Shirts",
-      description: "Get exclusive event T-shirts for the all Round 3 qualifiers."
-    },
-    {
       icon: <Gift className="w-8 h-8 text-white" />,
       title: "Goodies",
       description: "Get exciting goodies to fuel your tech passion."
@@ -16,7 +11,7 @@ const PrizeItems = () => {
     {
       icon: <Banknote className="w-8 h-8 text-white" />,
       title: "Cash Prizes",
-      description: "Attractive cash prizes worth up to ₹2,50,000."
+      description: "Attractive cash prizes worth up to ₹50,000."
     },
     {
       icon: <Medal className="w-8 h-8 text-white" />,
@@ -29,7 +24,7 @@ const PrizeItems = () => {
     <section id="prize-items" className="py-20 px-6 bg-gradient-to-b from-background to-primary/10 relative">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Prize Pool Up to ₹2,50,000</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Prize Pool Up to ₹50,000</h2>
           <p className="text-white/60 max-w-2xl mx-auto">
             The prize pool includes exciting cash prizes, gadgets, goodies, and more! Don't miss your chance to
             win big and get recognized.
