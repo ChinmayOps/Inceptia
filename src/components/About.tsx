@@ -1,6 +1,5 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import Countdown from "./Countdown";
 
 const About = () => {
   return (

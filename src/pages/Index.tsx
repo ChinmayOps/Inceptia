@@ -23,7 +23,7 @@ const Index = () => {
       </div>
       <Navbar />
       <Hero />
-      <Countdown/>
+      <Countdown />
       <About />
       <Domains />
       <PrizePool />
