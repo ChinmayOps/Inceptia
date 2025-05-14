@@ -13,7 +13,6 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#src\components\Countdown.tsx" className="text-white/80 hover:text-white transition-colors">Timeline</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>
           <a href="#domains" className="text-white/80 hover:text-white transition-colors">Domains</a>
           <a href="#prizes" className="text-white/80 hover:text-white transition-colors">Prizes</a>
