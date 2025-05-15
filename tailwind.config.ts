@@ -11,13 +11,17 @@ export default {
   ],
   prefix: "",
   theme: {
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+  container: {
+   center: true,
+   padding: "1rem", // reduce padding for smaller screens
+   screens: {
+    sm: "640px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1280px",
+    "2xl": "1400px",
     },
+  },
     extend: {
       colors: {
         border: "hsl(var(--border))",
