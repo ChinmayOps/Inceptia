@@ -12,7 +12,7 @@ import PrizeItems from "@/components/PrizeItems";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background pt-[80px]">
       <div className="absolute inset-0 overflow-hidden">
         {/* Captain America vs Iron Man Civil War background reference */}
         <div className="absolute top-0 left-0 w-full h-screen bg-[url('https://images.unsplash.com/photo-1624461080848-e8734740702b')] bg-cover opacity-5"></div>
