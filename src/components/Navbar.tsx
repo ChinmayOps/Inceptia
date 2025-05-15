@@ -1,8 +1,11 @@
 
 import { Button } from "@/components/ui/button";
 import { Shield, Zap } from "lucide-react";
+import {useState } from 'react';
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/80 backdrop-blur-lg border-b border-accent/20">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -30,4 +33,5 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar; 
+
