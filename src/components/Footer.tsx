@@ -39,7 +39,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white">Contact Us</h4>
             <ul className="space-y-2">
               <li><a href="mailto:inceptiahackathon2025@gmail.com" className="text-white/60 hover:text-white transition-colors">inceptiahackathon2025@gmail.com</a></li>
-              <li><a href="tel:+91 91521 81521" className="text-white/60 hover:text-white transition-colors">+91 91521 81521</a></li>
+              <li><a href="tel:+91 91521 81521  +91 76202 58694" className="text-white/60 hover:text-white transition-colors">+91 91521 81521 | +91 76202 58694</a></li>
               <li><span className="text-white/60">Pimpri Chinchwad College of Engineering,<br />Ravet, Pune</span></li>
             </ul>
           </div>
