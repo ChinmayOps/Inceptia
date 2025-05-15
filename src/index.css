@@ -15,9 +15,9 @@
   * {
     @apply border-border;
     @apply overflow-x-hidden;
-    *, ::before, ::after {
-      box-sizing: border-box;
   }
+  html {
+    @apply scroll-smooth;
   }
   body {
     @apply bg-background text-foreground antialiased;
