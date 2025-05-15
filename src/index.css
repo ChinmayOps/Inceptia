@@ -14,10 +14,6 @@
 @layer base {
   * {
     @apply border-border;
-    @apply overflow-x-hidden;
-  }
-  html {
-    @apply scroll-smooth;
   }
   body {
     @apply bg-background text-foreground antialiased;
