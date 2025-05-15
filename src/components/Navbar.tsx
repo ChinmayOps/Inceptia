@@ -62,7 +62,7 @@ const Navbar = () => {
           <a href="#sponsors" className="text-white/80 hover:text-white transition-colors">Sponsors</a>
           <Button
             className="bg-primary text-white hover:bg-primary/80"
-            onClick={() => window.open("https://unstop.com", "_blank")}
+            onClick={() => window.open("https://unstop.com/o/KxwXi86?lb=J9lrLzO&utm_medium=Share&utm_source=shortUrl", "_blank")}
           >
             Assemble Now <Zap className="w-4 h-4 ml-2" />
           </Button>
