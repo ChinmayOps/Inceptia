@@ -1,13 +1,13 @@
-/*export default {
+export default {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
-}*/
+}
 
-module.exports = {
+/*module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
-};
+};*/
