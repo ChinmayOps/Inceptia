@@ -55,7 +55,7 @@ const About = () => {
             <CardContent className="pt-6">
               <h3 className="text-2xl font-bold text-white mb-4">What to Expect</h3>
               <p className="text-white/70 mb-6">
-                Our 36-hour hackathon offers a unique opportunity to collaborate with like-minded individuals,showcase your skills. Throughout the event, you'll have access to mentors, workshops, and networking opportunities to help you succeed.
+                Our 24-hour hackathon offers a unique opportunity to collaborate with like-minded individuals,showcase your skills. Throughout the event, you'll have access to mentors, workshops, and networking opportunities to help you succeed.
               </p>
               <p className="text-white/70">
                 With great power comes great responsibility. Whether you're a seasoned developer, a creative designer, or just starting your tech journey, this hackathon is designed to challenge and inspire you to create solutions that matter.
