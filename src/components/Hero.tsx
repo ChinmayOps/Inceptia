@@ -159,7 +159,6 @@ const Hero = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-80" />
             <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 text-center">
-              <p className="text-white font-bold text-base sm:text-lg">ITSA INITIATIVE</p>
             </div>
           </div>
 

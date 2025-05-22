@@ -1,7 +1,7 @@
 
 // DEPRECATED import { Github, Twitter, Linkedin } from "lucide-react";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { SiGmail } from "react-icons/si";
+import { SiGmail, SiLinkedin } from "react-icons/si";
 import { Button } from "./ui/button";
 
 const Footer = () => {
@@ -16,12 +16,21 @@ const Footer = () => {
               Join us for an unforgettable coding experience where innovation meets opportunity.
             </p>
             <div className="flex space-x-4">
+              <a href="https://www.instagram.com/inceptia_pccoer/" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="hover:bg-white/10">
                 <AiOutlineInstagram className="w-5 h-5 text-white" />
               </Button>
+              </a>
+              <a href="mailto:inceptia2025@gmail.com">
               <Button variant="ghost" size="icon" className="hover:bg-white/10">
                 <SiGmail className="w-5 h-5 text-white" />
               </Button>
+              </a>
+              <a href="https://www.linkedin.com/company/inceptiahackathon/" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="hover:bg-white/10">
+                  <SiLinkedin className="w-5 h-5 text-white" />
+                </Button>
+              </a>
             </div>
           </div>
           
