@@ -69,7 +69,7 @@ const Schedule = () => {
                   </li>
                   <li className="relative pl-8 pb-6 border-l-2 border-primary/30">
                     <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary"></div>
-                    <div className="font-bold text-lg text-white">25<sup>th</sup> May 2025 to 5<sup>th</sup> June 2025</div>
+                    <div className="font-bold text-lg text-white">25<sup>th</sup> May 2025 to 3<sup>rd</sup> June 2025</div>
                     <div className="text-white/70">Online Presentation Registrations</div>
                   </li>
                   <li className="relative pl-8 pb-6 border-l-2 border-primary/30">
