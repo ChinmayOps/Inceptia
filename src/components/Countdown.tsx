@@ -115,12 +115,6 @@ const Schedule = () => {
                     </div>
                   </div>
                 </div>
-                { /*
-                {time.completed && (
-                  <div className="text-center mt-4 p-3 bg-primary/20 rounded-md border border-primary/30">
-                    <p className="text-white font-medium">Hackathon time is up! Time to submit your projects.</p>
-                  </div>
-                )} */}
               </CardContent>
             </Card>
           </div>

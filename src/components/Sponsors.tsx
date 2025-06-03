@@ -28,13 +28,6 @@ const Sponsors = () => {
                 </AspectRatio>
               </div>
             </Card>
-            {/*[1, 2].map((i) => (
-              <Card key={i} className="bg-white/5 backdrop-blur-sm border-white/10 p-10 flex items-center justify-center hover:bg-white/10 transition-colors">
-                <div className="aspect-[3/2] w-full bg-white/20 rounded-lg flex items-center justify-center">
-                  <p className="text-white/50 text-lg">Sponsor Logo</p>
-                </div>
-              </Card>
-            ))*/}
           </div>
         </div>
       </div>

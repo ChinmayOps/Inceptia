@@ -1,5 +1,4 @@
 
-// DEPRECATED import { Github, Twitter, Linkedin } from "lucide-react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { SiGmail, SiLinkedin } from "react-icons/si";
 import { Button } from "./ui/button";
@@ -59,10 +58,7 @@ const Footer = () => {
             <p className="text-center text-white/60 mb-4 md:mb-0">
               © 2025 Inceptia. All rights reserved.
             </p>
-            {/*<div className="flex space-x-6">
-              <a href="#" className="text-white/60 hover:text-white transition-colors text-sm">Privacy Policy</a>
-              <a href="#" className="text-white/60 hover:text-white transition-colors text-sm">Terms of Service</a>
-            </div>*/}
+
           </div>
         </div>
       </div>
