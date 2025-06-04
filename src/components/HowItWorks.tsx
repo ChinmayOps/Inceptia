@@ -16,7 +16,7 @@ const HowItWorks = () => {
     {
       icon: <Wrench className="w-8 h-8 text-white" />,
       title: "Build",
-      description: "36 hours of intensive hacking and building"
+      description: "24 hours of intensive hacking and building"
     },
     {
       icon: <Award className="w-8 h-8 text-white" />,
