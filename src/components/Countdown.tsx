@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Schedule = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date('2025-06-28T00:00:00').getTime();
+    const eventDate = new Date('2025-07-05T00:00:00').getTime();
     const now = new Date().getTime();
     const difference = eventDate - now;
 
