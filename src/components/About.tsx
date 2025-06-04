@@ -24,8 +24,8 @@ const About = () => {
             <CardContent className="pt-6">
               <h3 className="text-xl font-bold text-white mb-4">When & Where</h3>
               <p className="text-white/70">
-                June 28-29, 2025<br />
-                Pimpri Chinchwad College of Engineering and Research, Ravet<br />
+                July 5-6 2025<br />
+                Pimpri Chinchwad College of Engineering and Research, Ravet<br/>
                 Pune
               </p>
             </CardContent>
