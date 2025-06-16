@@ -84,7 +84,7 @@ const Domains = () => {
         <div className="mt-16 text-center">
           <Button 
             className="px-8 py-6 text-lg bg-primary text-white hover:bg-primary/80"
-            onClick={() => window.open("https://unstop.com/o/KxwXi86?lb=J9lrLzO&utm_medium=Share&utm_source=shortUrl", "_blank")}
+            onClick={() => window.open("https://forms.gle/fRvHBPCx5o3bpRxq6", "_blank")}
           >
             Assemble Your Team
             <Target className="w-5 h-5 ml-2" />

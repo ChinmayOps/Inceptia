@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <Button
               className="px-6 py-4 sm:px-8 sm:py-6 text-base sm:text-lg bg-primary text-white hover:bg-primary/90"
-              onClick={() => window.open("https://unstop.com/o/KxwXi86?lb=J9lrLzO&utm_medium=Share&utm_source=shortUrl", "_blank")}
+              onClick={() => window.open("https://forms.gle/fRvHBPCx5o3bpRxq6", "_blank")}
             >
               Assemble Your Team
               <Target className="w-5 h-5 ml-2" />
