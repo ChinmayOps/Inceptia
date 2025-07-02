@@ -33,7 +33,7 @@ const Sponsors = () => {
               <div className="aspect-[3/2] w-full rounded-lg flex items-center justify-center">
                 <AspectRatio ratio={3/2} className="w-full">
                   <img 
-                    src="./wetnjoy.svg" 
+                    src="./wetnjoy.png" 
                     alt="Wetnjoy Logo" 
                     className="object-contain w-full h-full"
                   />
@@ -44,7 +44,7 @@ const Sponsors = () => {
               <div className="aspect-[3/2] w-full rounded-lg flex items-center justify-center">
                 <AspectRatio ratio={3/2} className="w-full">
                   <img 
-                    src="./trelish.svg" 
+                    src="./trelish.jpeg" 
                     alt="Trelish Logo" 
                     className="object-contain w-full h-full"
                   />
@@ -55,7 +55,7 @@ const Sponsors = () => {
               <div className="aspect-[3/2] w-full rounded-lg flex items-center justify-center">
                 <AspectRatio ratio={3/2} className="w-full">
                   <img 
-                    src="./tfw.svg" 
+                    src="./tfw.png" 
                     alt="TFW Logo" 
                     className="object-contain w-full h-full"
                   />
@@ -66,7 +66,7 @@ const Sponsors = () => {
               <div className="aspect-[3/2] w-full rounded-lg flex items-center justify-center">
                 <AspectRatio ratio={3/2} className="w-full">
                   <img 
-                    src="./sunrichaqua.svg" 
+                    src="./sunrichaqua.png" 
                     alt="Sunrich Aqua Logo" 
                     className="object-contain w-full h-full"
                   />
